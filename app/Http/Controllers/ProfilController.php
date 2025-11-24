@@ -4,9 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class LemburanController extends Controller
+class ProfilController extends Controller
 {
-
     /**
      * Create a new controller instance.
      *

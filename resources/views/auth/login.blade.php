@@ -106,13 +106,13 @@
                     @endif
                 </div>
 
-                <div class="text-center mt-3">
+                {{-- <div class="text-center mt-3">
                     <small>Belum punya akun?
                         <a href="{{ route('register') }}" class="text-decoration-none text-danger fw-bold">
                             Daftar sekarang
                         </a>
                     </small>
-                </div>
+                </div> --}}
             </form>
         </div>
     </div>

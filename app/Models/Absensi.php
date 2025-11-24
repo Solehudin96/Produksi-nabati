@@ -9,18 +9,18 @@ class Absensi extends Model
 {
     use HasFactory;
 
+    protected $table = 'absensi';
+
     protected $fillable = [
-        'karyawan_id',
+        'user_id',
         'tanggal',
-        'status',
-        'jam_masuk',
-        'jam_keluar',
+        'waktu_masuk',
+        'waktu_keluar',
+        'status'
     ];
 
-    public function karyawan()
+    public function user()
     {
-        return $this->belongsTo(Karyawan::class,);
+        return $this->belongsTo(User::class, 'user_id');
     }
-
-    
 }
